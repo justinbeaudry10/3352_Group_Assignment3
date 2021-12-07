@@ -46,8 +46,22 @@ public class Page {
         texts.get(index).setTextString(textStr);
     }
 
+    
+    public void showComments()
+    {
+        //Method loads array of page's comments 
+    }
 
+    
+    public void showMedia()
+    {
+        //Method loads array of page's media
+    }
 
+    public void showText()
+    {
+        //Method loads array of page's texts 
+    }
 
 
 }
