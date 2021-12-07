@@ -16,26 +16,32 @@ public class Comment {
         this.date = date;
     }
 
+    //Comment getter
     public String getCommentString() {
         return commentString;
     }
 
+    //Comment setter
     public void setCommentString(String commentString) {
         this.commentString = commentString;
     }
 
+    //Author getter
     public String getAuthor() {
         return author;
     }
 
+    //Author setter
     public void setAuthor(String author) {
         this.author = author;
     }
 
+    //Date getter
     public Date getDate() {
         return date;
     }
 
+    //Date setter
     public void setDate(Date date) {
         this.date = date;
     }

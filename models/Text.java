@@ -17,26 +17,32 @@ public class Text {
         this.date = date;
     }
 
+    //TextString getter
     public String getTextString() {
         return textString;
     }
 
+    //TextString setter
     public void setTextString(String textString) {
         this.textString = textString;
     }
 
+    //Author getter
     public String getAuthor() {
         return author;
     }
 
+    //Author setter
     public void setAuthor(String author) {
         this.author = author;
     }
 
+    //Date getter
     public Date getDate() {
         return date;
     }
 
+    //Date setter
     public void setDate(Date date) {
         this.date = date;
     }
