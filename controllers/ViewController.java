@@ -9,4 +9,7 @@ public class ViewController {
         this.view = view;
     }
 
+    public void addComment(String text) {
+
+    }
 }

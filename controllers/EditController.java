@@ -8,4 +8,16 @@ public class EditController {
         this.model = model;
         this.view = view;
     }
+
+    public void addMultimedia(String url) {
+
+    }
+
+    public void addText(String text) {
+
+    }
+
+    public void addComment(String text) {
+
+    }
 }
