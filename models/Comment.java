@@ -7,7 +7,7 @@ public class Comment {
     String author;
     Date date;
 
-    //Comment constructor
+    //Comment element class constructor
     public Comment(String commentText, String author, Date date)
     {
         this.commentText = commentText;
