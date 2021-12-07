@@ -1,5 +1,4 @@
 package views;
-import java.util.Date;
 import models.Page;
 
 public class ViewingView {
