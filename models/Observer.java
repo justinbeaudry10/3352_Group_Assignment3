@@ -1,6 +1,6 @@
 package models;
 
-// Can also be an interface
+//Observer class
 public abstract class Observer {
     public abstract void update();
 }

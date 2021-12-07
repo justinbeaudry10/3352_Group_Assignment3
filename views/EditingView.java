@@ -6,19 +6,27 @@ import controllers.EditController;
 import models.Observer;
 import models.Page;
 
-public class EditingView extends Observer {
+//Editing page view
+public class EditingView extends Observer
+{
+    //Reference to page being edited (model)
     private Page model;
+
+    //Controller for editing the page
     private EditController controller;
 
+    //Constructor
     public EditingView() {
 
     }
 
+    //Constructor
     public EditingView(Page model, EditController controller) {
         this.setModel(model);
         this.setController(controller);
     }
 
+    //Update the view
     public void update() {
         this.show();
     }
@@ -49,10 +57,12 @@ public class EditingView extends Observer {
         // Display or refresh
     }
 
+    //Get the model
     public Page getModel() {
         return this.model;
     }
 
+    //Set the model
     public void setModel(Page model) {
         if (this.model != null)
             this.model.dettach(this);
@@ -61,10 +71,12 @@ public class EditingView extends Observer {
         this.model.attach(this);
     }
 
+    //Get the controller
     public controllers.EditController getController() {
         return this.controller;
     }
 
+    //Set the controller
     public void setController(controllers.EditController controller) {
         this.controller = controller;
     }
